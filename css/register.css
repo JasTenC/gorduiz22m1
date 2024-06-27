@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    background-color: rgba(152, 151, 228, 0.8);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.reg_log p{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs button{
+    color: white;
+}
+
+.inputs input{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.inputs input, button{
+    height: 45px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.inputs button{
+    font-size: 35px;
+    background-color: rgb(93, 92, 153);
+    border: none;
+}
+
+.inputs button:hover{
+    background-color: rgb(70, 70, 124);
+    cursor: pointer;
+}
+
+.inputs button:active{
+    background-color: rgb(53, 53, 97);
+    cursor: pointer;
+}
+
+.arrDiv button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.back{
+    height: 30px;
+    width: 30px;
+}
+
+
+
